@@ -15,3 +15,6 @@ for i in xrange(0, len(label_output)):
 
 percentage_correct = 100.0 * correct / len(label_output)
 print("Averager gets " + str(percentage_correct) + "% correct (" + str(correct) + " out of " + str(len(label_output)) + ").")
+
+
+p1.plot_2d_examples(feature_matrix, labels, 0, average_theta)
